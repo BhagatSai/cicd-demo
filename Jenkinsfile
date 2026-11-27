@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "myname/myapp"
+    IMAGE = "bhagatsai/myapp"
   }
   stages {
     stage('Maven Build') {
